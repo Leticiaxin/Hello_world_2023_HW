@@ -13,6 +13,7 @@ me.speed(0)#muxium spped for darwing
 me.penup()
 turtle.colormode(255)#rgb
 
+# I try to ceate a gradent background, but it doesen't work..
 def draw_gradient():
     for y in range(-300, 301):
         color = (0, 0, y % 256)
